@@ -109,7 +109,7 @@ class RunSim:
         return wheel_speed , actual_speed
 
 def create_world_file(slip_lat = 0.0, slip_long = 0.0, incline_deg = 0.0):
-    lines = open('slip.world', 'r').readlines()
+    lines = open('slip_base.world', 'r').readlines()
 
     # Replace gravity
     g = "\t<gravity>" + str(round(-9.8 * np.sin(incline_deg * np.pi/180), 3)) + " 0 " \
