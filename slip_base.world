@@ -12,7 +12,7 @@
     </include>
 
     <include>
-      <uri>model://trisphere_cycle</uri>
+      <uri>model://custom_trisphere_cycle</uri>
       <name>my_tricycle</name>
       <pose>0 0 0  0 0 0</pose>
       
