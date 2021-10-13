@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 
 <sdf version="1.6">
-  <world name="default">
-    <gravity>3.35 0 -9.2</gravity>
+  <world name="default"><physics type="ode"><real_time_update_rate>50.0</real_time_update_rate></physics>
+    <gravity>-7 0 -9.8</gravity>
 
     <include>
       <uri>model://ground_plane</uri>
