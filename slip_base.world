@@ -43,6 +43,7 @@
         <controller type="velocity">
           <joint>wheel_rear_left_spin</joint>
           <joint>wheel_rear_right_spin</joint>
+          <joint>wheel_front_spin</joint>
           <target>6.0</target>
           <pid_gains>9 0 0</pid_gains>
         </controller>
