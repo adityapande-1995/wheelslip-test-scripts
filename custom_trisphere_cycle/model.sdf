@@ -236,15 +236,9 @@
         </inertia>
       </inertial>
       <collision name="collision">
-	      <foo:apply_virtual_force>False</foo:apply_virtual_force>
-	      <foo:coeff_force>10</foo:coeff_force>
-	      <foo:coeff_torque>0.005</foo:coeff_torque>
-
-	      <foo:shift_contact>True</foo:shift_contact>
-	      <foo:max_angle_deg>15</foo:max_angle_deg>
-	      <foo:dead_zone_vel>0.5</foo:dead_zone_vel>
-	      <foo:k>0.02</foo:k>
-
+	<ignition:plowing_max_degrees>15</ignition:plowing_max_degrees>
+	<ignition:plowing_deadband_velocity>0.5</ignition:plowing_deadband_velocity>
+	<ignition:plowing_saturation_velocity>0.63</ignition:plowing_saturation_velocity>
         <geometry>
           <sphere>
             <radius>0.15</radius>
@@ -317,15 +311,9 @@
         </inertia>
       </inertial>
       <collision name="collision">
-	      <foo:apply_virtual_force>False</foo:apply_virtual_force>
-	      <foo:coeff_force>10</foo:coeff_force>
-	      <foo:coeff_torque>0.005</foo:coeff_torque>
-	      
-	      <foo:shift_contact>True</foo:shift_contact>
-	      <foo:max_angle_deg>15</foo:max_angle_deg>
-	      <foo:dead_zone_vel>0.5</foo:dead_zone_vel>
-	      <foo:k>0.02</foo:k>
-
+	<ignition:plowing_max_degrees>15</ignition:plowing_max_degrees>
+	<ignition:plowing_deadband_velocity>0.5</ignition:plowing_deadband_velocity>
+	<ignition:plowing_saturation_velocity>0.63</ignition:plowing_saturation_velocity>
         <geometry>
           <sphere>
             <radius>0.15</radius>
@@ -384,15 +372,9 @@
         </inertia>
       </inertial>
       <collision name="collision">
-	      <foo:apply_virtual_force>False</foo:apply_virtual_force>
-	      <foo:coeff_force>10</foo:coeff_force>
-	      <foo:coeff_torque>0.005</foo:coeff_torque>
-	      
-	      <foo:shift_contact>True</foo:shift_contact>
-	      <foo:max_angle_deg>15</foo:max_angle_deg>
-	      <foo:dead_zone_vel>0.5</foo:dead_zone_vel>
-	      <foo:k>0.02</foo:k>
-
+	<ignition:plowing_max_degrees>15</ignition:plowing_max_degrees>
+	<ignition:plowing_deadband_velocity>0.5</ignition:plowing_deadband_velocity>
+	<ignition:plowing_saturation_velocity>0.63</ignition:plowing_saturation_velocity>
         <geometry>
           <sphere>
             <radius>0.15</radius>
